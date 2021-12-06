@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+body {
+    background-color: #262626;
+    margin: 0;
+    padding: 0;
+}
+
+#MyCLockDisplay {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 8rem;
+    font-family: sans-serif;
+    background: linear-gradient(to right, #f31270, #ffeb07, #2196f3, #ff00eb);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-shadow: 0 0 3px rgba(0, 0, 0, 1);
+}
